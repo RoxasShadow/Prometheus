@@ -1,4 +1,4 @@
-Prometheus is an alarm: when the VCNL4000 sees something, the servo will start to move and make noise to alert you.
+Prometheus is an alarm: when the VCNL4000 sees something, the servo will start to move and to make noises with the servo to alert you.
 In order to unlock the alarm, press the button and do a particular gesture with your finger on the VCNL4000.
 If the room is dark, a LED will illuminate it.
 
