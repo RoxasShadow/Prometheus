@@ -2,7 +2,7 @@
 *            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 *                    Version 2, December 2004
 * 
-* Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+* Copyright (C) 20013 Giovanni Capuano <webmaster@giovannicapuano.net>
 * 
 * Everyone is permitted to copy and distribute verbatim or modified
 * copies of this license document, and changing it is allowed as long
@@ -20,7 +20,7 @@
 
 #define LIMIT     180   // servo's maximum angle degree
 #define AMBIENT   600   // light sensor limit
-#define ERR_TIME  10     // seconds in which auth is valid
+#define ERR_TIME  10    // seconds in which auth is valid
 #define SUCC_TIME 20000 // milliseconds in which auth is valid (20 seconds)
 
 /* Password */
@@ -31,7 +31,7 @@
 
 /* Components */
 VCNL4000 chip; // proximity sensor
-Servo servo; // servo
+Servo servo;  // servo
 
 /* Global vars */
 int touches[4] = {0};
