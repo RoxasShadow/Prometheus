@@ -93,7 +93,7 @@ void loop() {
   int ambient = chip.ambient();
   int proximity = chip.proximity();
   
-  digitalWrite(grnLed, HIGH); // hasn't a ground, so is inverted
+  digitalWrite(grnLed, HIGH); // hasn't a ground, so it's inverted
   digitalWrite(redLed, HIGH);
   
   if(pressingButton()) {
